@@ -1,0 +1,104 @@
+# of threads 2
+Sequential time in milliseconds : 366 ms
+Parallel time in milliseconds : 204 ms
+Sections time in milliseconds : 248 ms
+ILE      1267, 1267, 1267
+ARG      1472, 1472, 1472
+LYS      1132, 1132, 1132
+THR      1292, 1292, 1292
+ASN      777, 777, 777
+GIN      1105, 1105, 1105
+MET      503, 503, 503
+LEU      2959, 2959, 2959
+PRO      1545, 1545, 1545
+HIS      978, 978, 978
+VAL      1571, 1571, 1571
+ALA      1308, 1308, 1308
+ASP      636, 636, 636
+GLU      1091, 1091, 1091
+GLY      1852, 1852, 1852
+SER      2496, 2496, 2496
+PHE      1587, 1587, 1587
+TYR      701, 701, 701
+STP      1257, 1257, 1257
+CYS      1102, 1102, 1102
+TRP      630, 630, 630
+No Errors
+# of threads 4
+Sequential time in milliseconds : 238 ms
+Parallel time in milliseconds : 117 ms
+Sections time in milliseconds : 215 ms
+ILE      1267, 1267, 1267
+ARG      1472, 1472, 1472
+LYS      1132, 1132, 1132
+THR      1292, 1292, 1292
+ASN      777, 777, 777
+GIN      1105, 1105, 1105
+MET      503, 503, 503
+LEU      2959, 2959, 2959
+PRO      1545, 1545, 1545
+HIS      978, 978, 978
+VAL      1571, 1571, 1571
+ALA      1308, 1308, 1308
+ASP      636, 636, 636
+GLU      1091, 1091, 1091
+GLY      1852, 1852, 1852
+SER      2496, 2496, 2496
+PHE      1587, 1587, 1587
+TYR      701, 701, 701
+STP      1257, 1257, 1257
+CYS      1102, 1102, 1102
+TRP      630, 630, 630
+No Errors
+# of threads 8
+Sequential time in milliseconds : 239 ms
+Parallel time in milliseconds : 124 ms
+Sections time in milliseconds : 232 ms
+ILE      1267, 1267, 1267
+ARG      1472, 1472, 1472
+LYS      1132, 1132, 1132
+THR      1292, 1292, 1292
+ASN      777, 777, 777
+GIN      1105, 1105, 1105
+MET      503, 503, 503
+LEU      2959, 2959, 2959
+PRO      1545, 1545, 1545
+HIS      978, 978, 978
+VAL      1571, 1571, 1571
+ALA      1308, 1308, 1308
+ASP      636, 636, 636
+GLU      1091, 1091, 1091
+GLY      1852, 1852, 1852
+SER      2496, 2496, 2496
+PHE      1587, 1587, 1587
+TYR      701, 701, 701
+STP      1257, 1257, 1257
+CYS      1102, 1102, 1102
+TRP      630, 630, 630
+No Errors
+# of threads 16
+Sequential time in milliseconds : 241 ms
+Parallel time in milliseconds : 157 ms
+Sections time in milliseconds : 233 ms
+ILE      1267, 1267, 1267
+ARG      1472, 1472, 1472
+LYS      1132, 1132, 1132
+THR      1292, 1292, 1292
+ASN      777, 777, 777
+GIN      1105, 1105, 1105
+MET      503, 503, 503
+LEU      2959, 2959, 2959
+PRO      1545, 1545, 1545
+HIS      978, 978, 978
+VAL      1571, 1571, 1571
+ALA      1308, 1308, 1308
+ASP      636, 636, 636
+GLU      1091, 1091, 1091
+GLY      1852, 1852, 1852
+SER      2496, 2496, 2496
+PHE      1587, 1587, 1587
+TYR      701, 701, 701
+STP      1257, 1257, 1257
+CYS      1102, 1102, 1102
+TRP      630, 630, 630
+No Errors
