@@ -35,6 +35,7 @@ parallelSections(string inStr)
     
     // Parallel section 1, forms codons
     {
+        // NESTED PARALLISM of for loop to use as much threads as possible
         for each 3 characters
             codonsArr[formedCodons] <- codon from 3 characters
             formedCodons <- formedCodons + 1
