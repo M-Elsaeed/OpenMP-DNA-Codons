@@ -24,21 +24,22 @@ parallel(string inStr)
     print(end-start)
 
 parallelSections(string inStr)
-    // Codons Arr of size (sequence length / 3)
+    // Codons 2D Array of size (2, sequence length / 3)
     codonsArr
-    // Counter of formed codons
-    formedCodons <- 0
+    // Array of Counters of formed codons
+    formedCodons[0] <- 0
+    formedCodons[1] <- 0
     // Counter of counted codons
-    countedCodons <- 0
+    countedCodons[0] <- 0
+    countedCodons[1] <- 0
     // Record starting time
 	start <- getTime()
     
     // Parallel section 1, forms codons
     {
-        // NESTED PARALLISM of for loop to use as much threads as possible
-        for each 3 characters
-            codonsArr[formedCodons] <- codon from 3 characters
-            formedCodons <- formedCodons + 1
+        for each 3 characters in the first half of the array
+            codonsArr[0][formedCodons[0]] <- codon from 3 characters
+            formedCodons[0] <- formedCodons[0] + 1
     }
 
 
@@ -46,8 +47,24 @@ parallelSections(string inStr)
     {
         while( (not all codons formed) or (not all formed codons counted) )
             while(not all formed codons counted)
-                countMapSeq[codonMap[codonsArr[countedCodons]]] += 1;
-                countedCodons <- countedCodons+1
+                countMapSeq[codonMap[codonsArr[0][countedCodons[0]]]] += 1;
+                countedCodons[0] <- countedCodons[0]+1
+    }
+
+    // Parallel section 3, forms codons
+    {
+        for each 3 characters in the second half of the array
+            codonsArr[1][formedCodons[1]] <- codon from 3 characters
+            formedCodons[1] <- formedCodons[1] + 1
+    }
+
+
+    // Parallel section 4, counts proteins of formed codons
+    {
+        while( (not all codons formed) or (not all formed codons counted) )
+            while(not all formed codons counted)
+                countMapSeq[codonMap[codonsArr[1][countedCodons[1]]]] += 1;
+                countedCodons[1] <- countedCodons[1]+1
     }
 
 	// Record starting time

@@ -1,7 +1,7 @@
 # of threads 2
-Sequential time in milliseconds : 546 ms
-Parallel time in milliseconds : 346 ms
-Sections time in milliseconds : 413 ms
+Sequential time in milliseconds : 337 ms
+Parallel time in milliseconds : 169 ms
+Sections time in milliseconds : 205 ms
 ILE      1267, 1267, 1267
 ARG      1472, 1472, 1472
 LYS      1132, 1132, 1132
@@ -25,9 +25,9 @@ CYS      1102, 1102, 1102
 TRP      630, 630, 630
 No Errors
 # of threads 4
-Sequential time in milliseconds : 492 ms
-Parallel time in milliseconds : 207 ms
-Sections time in milliseconds : 405 ms
+Sequential time in milliseconds : 255 ms
+Parallel time in milliseconds : 113 ms
+Sections time in milliseconds : 172 ms
 ILE      1267, 1267, 1267
 ARG      1472, 1472, 1472
 LYS      1132, 1132, 1132
@@ -51,9 +51,9 @@ CYS      1102, 1102, 1102
 TRP      630, 630, 630
 No Errors
 # of threads 8
-Sequential time in milliseconds : 470 ms
-Parallel time in milliseconds : 217 ms
-Sections time in milliseconds : 430 ms
+Sequential time in milliseconds : 232 ms
+Parallel time in milliseconds : 123 ms
+Sections time in milliseconds : 178 ms
 ILE      1267, 1267, 1267
 ARG      1472, 1472, 1472
 LYS      1132, 1132, 1132
@@ -77,9 +77,9 @@ CYS      1102, 1102, 1102
 TRP      630, 630, 630
 No Errors
 # of threads 16
-Sequential time in milliseconds : 474 ms
-Parallel time in milliseconds : 251 ms
-Sections time in milliseconds : 463 ms
+Sequential time in milliseconds : 229 ms
+Parallel time in milliseconds : 155 ms
+Sections time in milliseconds : 179 ms
 ILE      1267, 1267, 1267
 ARG      1472, 1472, 1472
 LYS      1132, 1132, 1132
