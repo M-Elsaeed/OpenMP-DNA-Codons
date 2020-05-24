@@ -29,7 +29,7 @@ parallelSections(string inStr)
     // Array of Counters of formed codons
     formedCodons[0] <- 0
     formedCodons[1] <- 0
-    // Counter of counted codons
+    // Array of Counters of counted codons
     countedCodons[0] <- 0
     countedCodons[1] <- 0
     // Record starting time
